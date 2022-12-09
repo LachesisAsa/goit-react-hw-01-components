@@ -1,18 +1,18 @@
 import styled from '@emotion/styled';
 
-export const Profile_Card = styled.div`
+export const ProfileCard = styled.div`
   width: 320px;
   border: 1.5px solid grey;
   border-radius: 10px;
 `;
-export const Profile_Description = styled.div`
+export const ProfileDescription = styled.div`
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 30px;
   background-color: #ffffff;
   text-align: center;
 `;
-export const Profile_DescImg = styled.img`
+export const ProfileDescImg = styled.img`
   margin-left: auto;
   margin-right: auto;
   width: 100px;
@@ -20,25 +20,25 @@ export const Profile_DescImg = styled.img`
   border-radius: 50px;
   margin-bottom: 20px;
 `;
-export const Profile_DescName = styled.p`
+export const ProfileDescName = styled.p`
   font-weight: 500;
   font-size: 28px;
   line-height: 1.18;
   margin-bottom: 10px;
 `;
-export const Profile_DescTag = styled.p`
+export const ProfileDescTag = styled.p`
   font-size: 16px;
   line-height: 1.36;
   color: #5c5b5b;
   margin-bottom: 10px;
 `;
-export const Profile_DescLocation = styled.p`
+export const ProfileDescLocation = styled.p`
   font-size: 20px;
   line-height: 1.18;
   color: #757575;
   margin-bottom: 20px;
 `;
-export const Profile_Stats = styled.ul`
+export const ProfileStats = styled.ul`
   background-color: #e5e5e5;
   width: 100%;
   font-size: 20px;
@@ -53,7 +53,7 @@ export const Profile_Stats = styled.ul`
   padding: 0;
   margin: 0;
 `;
-export const Profile_StatsItem = styled.li`
+export const ProfileStatsItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@ export const Profile_StatsItem = styled.li`
     border-left: 1px solid #a1a1a1;
   }
 `;
-export const Profile_StatsLabel = styled.span`
+export const ProfileStatsLabel = styled.span`
   &:first-letter {
     text-transform: uppercase;
   }
@@ -71,7 +71,7 @@ export const Profile_StatsLabel = styled.span`
   color: #757575;
   margin-bottom: 5px;
 `;
-export const Profile_StatsQuantity = styled.span`
+export const ProfileStatsQuantity = styled.span`
   font-weight: 500;
   font-size: 18px;
 `;

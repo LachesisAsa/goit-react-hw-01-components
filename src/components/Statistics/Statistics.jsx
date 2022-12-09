@@ -1,31 +1,30 @@
 import PropTypes from 'prop-types';
 import{
-  Stat_Graph,
-  Stat_Title,
-  Stat_List,
-  Stat_ListItem,
-  Stat_ListLabel,
-  Stat_ListPercentage
+  StatGraph,
+  StatTitle,
+  StatList,
+  StatListItem,
+  StatListLabel,
+  StatListPercentage
 } from './Statistics.styled';
 
 const Statistics = ({ title, stats }) => {
   return (
-    <Stat_Graph>
-      <Stat_Title>{title}</Stat_Title>
-      <Stat_List>
+    <StatGraph>
+      <StatTitle>{title}</StatTitle>
+      <StatList>
         {stats.map(({ id, label, percentage }) => {
           return (
-            <Stat_ListItem key={id}>
-              <Stat_ListLabel>{label}</Stat_ListLabel>
-              <Stat_ListPercentage>{percentage}%</Stat_ListPercentage>
-            </Stat_ListItem>
+            <StatListItem key={id}>
+              <StatListLabel>{label}</StatListLabel>
+              <StatListPercentage>{percentage}%</StatListPercentage>
+            </StatListItem>
           );
         })}
-      </Stat_List>
-    </Stat_Graph>
+      </StatList>
+    </StatGraph>
   );
 };
-
 Statistics.propTypes = {
     title: PropTypes.string,
     stats: PropTypes.arrayOf(

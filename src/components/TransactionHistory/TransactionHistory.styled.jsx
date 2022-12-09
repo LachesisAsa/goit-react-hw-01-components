@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const Transaction_History = styled.table`
+export const HistoryTransaction = styled.table`
   margin-left: auto;
   margin-right: auto;
   table-layout: fixed;
@@ -8,10 +8,10 @@ export const Transaction_History = styled.table`
   border-collapse: collapse;
   text-align: center;
 `;
-export const Table_Header = styled.thead`
+export const TableHeader = styled.thead`
   background-color: blue;
 `;
-export const Column_Name = styled.th`
+export const ColumnName = styled.th`
   font-weight: 500;
   font-size: 24px;
   line-height: 1.18;
@@ -19,18 +19,18 @@ export const Column_Name = styled.th`
   color: white;
   text-transform: uppercase;
 `;
-export const Table_Row = styled.tr`
+export const TableRow = styled.tr`
   font-size: 18px;
   & + & {
     border-top: 1px solid grey;
   }
 `;
-export const Cell_Value = styled.td`
+export const CellValue = styled.td`
   padding: 10px 20px;
   & + & {
     border-left: 1px solid grey;
   }
 `;
-export const Table_Body = styled.tbody`
+export const TableBody = styled.tbody`
   background-color: #ffffff;
 `;
