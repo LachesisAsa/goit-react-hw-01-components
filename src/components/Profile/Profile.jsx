@@ -22,7 +22,7 @@ const Profile = ({ avatar, username, tag, location, stats }) => {
         <ProfileDescTag>{tag}</ProfileDescTag>
         <ProfileDescLocation>{location}</ProfileDescLocation>
       </ProfileDescription>
-      <ProfileStats key={stats}>
+      <ProfileStats>
         {keys.map(item => {
           return (
             <ProfileStatsItem key={item}>

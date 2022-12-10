@@ -8,7 +8,7 @@ export const ListFriend = styled.ul`
   gap: 10px;
   padding: 0;
 `;
-export const FriendItem = styled.li`
+export const FriendListItem = styled.li`
   display: flex;
   align-items: center;
   border-radius: 5px;
@@ -23,7 +23,7 @@ export const FriendStatus = styled.span`
   background-color: ${props =>
     props.isOnline ? 'rgb(49, 167, 75)' : 'rgb(240, 29, 29)'};
 `;
-export const FriendImg = styled.img`
+export const FriendAvatar = styled.img`
   margin-right: 8px;
 `;
 export const FriendName = styled.p`
