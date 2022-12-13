@@ -6,9 +6,9 @@ import {
   FriendName,
 } from './FriendList.styled';
 
-const FriendListItem = ({ avatar, name, isOnline, id }) => {
+const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <Item key={id}>
+    <Item>
       <FriendStatus isOnline={isOnline}></FriendStatus>
       <FriendAvatar
         className="avatar"
